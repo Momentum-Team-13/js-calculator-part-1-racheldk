@@ -1,17 +1,21 @@
 
-body{
-    background-color: aqua;
+/* Colors #006d77 #83c5be #edf6f9 #ffddd2 #e29578 */
+
+button {
+    background-color: #C9E6E3;
+    color:  #142604;
+    font-size:xx-large;
 }
 
 div {
     height: 600px;
     width: 480px;
-    background-color: cadetblue;
+    background-color: #386c0b;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
-    border: 5px solid cadetblue;
+    border: 5px solid #386c0b;
 }
 
 #C {
