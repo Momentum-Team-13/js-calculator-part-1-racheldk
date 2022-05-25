@@ -1,1 +1,87 @@
-/* try grid this time! */
+
+body{
+    background-color: aqua;
+}
+
+div {
+    height: 600px;
+    width: 480px;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    border: 5px solid cadetblue;
+}
+
+#C {
+    grid-area: 1/1/2/2;
+}
+
+#display {
+    grid-area: 1/2/2/5;
+}
+
+#one {
+    grid-area: 4/1/5/2;
+}
+
+#two {
+    grid-area: 4/2/5/3;
+}
+
+#three {
+    grid-area: 4/3/5/4;
+}
+
+#four {
+    grid-area: 3/1/4/2;
+}
+
+#five {
+    grid-area: 3/2/4/3;
+}
+
+#six {
+    grid-area: 3/3/4/4;
+}
+
+#seven {
+    grid-area: 2/1/3/2;
+}
+
+#eight {
+    grid-area: 2/2/3/3;
+}
+
+#nine {
+    grid-area: 2/3/3/4;
+}
+
+#zero {
+    grid-area: 5/1/6/2;
+}
+
+#decimal {
+    grid-area: 5/2/6/3;
+}
+
+#equal {
+    grid-area: 5/3/6/4;
+}
+
+#plus {
+    grid-area: 5/4/6/5;
+}
+
+#minus {
+    grid-area: 4/4/5/5;
+}
+
+#multiply {
+    grid-area: 3/4/4/5;
+}
+
+#divide {
+    grid-area: 2/4/3/5;
+}
