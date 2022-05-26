@@ -1,7 +1,8 @@
-let buttons = document.getElementsByTagName("button")
+let buttons = document.getElementsByClassName("button")
 console.log(buttons)
 const display = document.getElementById("display")
 const clear = document.getElementById("C")
+const equals = document.getElementById("equals")
 
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
@@ -17,10 +18,11 @@ clear.addEventListener("click", function (event){
     display.innerHTML = "";
 })
 
-
-
 // math part  from equal button
-
-
-
+equals.addEventListener("click", function (event){
+    let equation = display.textContent;
+    console.log(eval(equation));
+    display.textContent = eval(equation);
+}
+)
 
