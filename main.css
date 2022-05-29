@@ -1,5 +1,6 @@
 
 /* Colors #006d77 #83c5be #edf6f9 #ffddd2 #e29578 */
+/* TO DO: make display all show up on the same line - answer and 0. are at the top */
 
 button, p {
     background-color: #C9E6E3;
@@ -27,6 +28,7 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-content: center;
 }
 
 #one {
