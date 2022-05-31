@@ -9,7 +9,7 @@ const decimal = document.getElementById("decimal")
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
         console.log(event.target.textContent);
-        let newElement = document.createElement('p');
+        let newElement = document.createElement('span');
         newElement.innerText = event.target.textContent;
         display.appendChild(newElement);
     })
@@ -38,7 +38,7 @@ decimal.addEventListener("click", function (event)
 } 
 else {
 console.log(event.target.textContent);
-        let newElement = document.createElement('p');
+        let newElement = document.createElement('span');
         newElement.innerText = event.target.textContent;
         display.appendChild(newElement);
 }

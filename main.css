@@ -19,6 +19,10 @@ div {
     border: 5px solid #386c0b;
 }
 
+span{
+    justify-content: flex-start;
+}
+
 #C {
     grid-area: 1/1/2/2;
 }
